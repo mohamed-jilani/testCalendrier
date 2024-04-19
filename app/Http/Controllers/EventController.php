@@ -10,6 +10,7 @@ class EventController extends Controller
     public function index()
     {
         $events = Event::all();
+        //modification de controlleur
         return view('events.index', compact('events'));
     }
     
